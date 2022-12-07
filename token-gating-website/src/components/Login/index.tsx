@@ -1,4 +1,3 @@
-import { ethers } from 'ethers';
 import Button from '../common/Button';
 import Navbar from '../common/NavBar';
 import Handshake from 'src/assets/images/handshake.png';
@@ -8,14 +7,22 @@ import './login.css';
 const Login = () => {
   const signInWithEthereum = async () => {
     // make sure we enable wallets like MetaMask
-    await window.ethereum.enable();
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    const signer = provider.getSigner();
-
-    const addr = await signer.getAddress();
-    console.log(addr);
-    localStorage.setItem('my-siwe-addr', addr);
-    window.location.href = `/view`;
+    if (window.ethereum) {
+      try {
+        const accounts = await window.ethereum.request({
+          method: 'eth_requestAccounts',
+        });
+        localStorage.setItem('my-siwe-addr', accounts[0]);
+        window.location.href = `/view`;
+      } catch (error) {
+        if (error.code === 4001) {
+          // User rejected request
+          alert('User rejected request');
+        }
+      }
+    } else {
+      alert('window.ethereum not available');
+    }
   };
   return (
     <>
