@@ -15,7 +15,7 @@ const NavBar = ({ children }: { children?: React.ReactNode }) => {
             <img
               src={CL_Logo}
               alt="Collab.Land"
-              style={{ width: '150px', height: '25px', marginRight: '8px' }}
+              style={{ width: '100px', height: '25px', marginRight: '8px' }}
             />
           ) : tablet ? (
             <img

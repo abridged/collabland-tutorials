@@ -1,7 +1,6 @@
 import Button from '../common/Button';
 import Navbar from '../common/NavBar';
-import Handshake from 'src/assets/images/handshake.png';
-import LoginView from 'src/assets/images/collabland-view-transparent.png';
+import LoginView from 'src/assets/images/collabland-mascot.png';
 import './login.css';
 
 const Login = () => {
@@ -29,11 +28,6 @@ const Login = () => {
       <Navbar>
         <div className="w-full flex flex-row justify-end pr-8">
           <Button handleClick={signInWithEthereum}>
-            <img
-              className="h-8 w-10 rounded-full mr-1"
-              alt="cl"
-              src={Handshake}
-            />
             Sign in with Ethereum
           </Button>
         </div>
