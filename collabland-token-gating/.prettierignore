@@ -1,0 +1,8 @@
+# Ignore artifacts:
+node_modules
+TestCoverage
+dist
+dist-stable
+
+# Ignore all HTML files:
+*.min.js

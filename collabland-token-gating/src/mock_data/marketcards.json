@@ -1,0 +1,50 @@
+[
+  {
+    "name": "collab",
+    "createDateText": "Created about 1 month ago",
+    "freeInfo": "FREE",
+    "appType": "Bot Command",
+    "desc": "Generate a beautiful community map from Collab.land Token",
+    "status":"dao"
+  },
+  {
+    "name": "discord",
+    "createDateText": "Created about 1 month ago",
+    "freeInfo": "FREE",
+    "appType": "Bot Command",
+    "desc": "Generate a beautiful community map from Collab.land Token",
+    "status":"installed"
+  },
+  {
+    "name": "gnosis",
+    "createDateText": "Created about 1 month ago",
+    "freeInfo": "FREE",
+    "appType": "Bot Command",
+    "desc": "Generate a beautiful community map from Collab.land Token",
+    "status":"dao"
+  },
+  {
+    "name": "metamask",
+    "createDateText": "Created about 1 month ago",
+    "freeInfo": "FREE",
+    "appType": "Bot Command",
+    "desc": "Generate a beautiful community map from Collab.land Token",
+    "status":"installed"
+  },
+  {
+    "name": "walletconnect",
+    "createDateText": "Created about 1 month ago",
+    "freeInfo": "FREE",
+    "appType": "Bot Command",
+    "desc": "Generate a beautiful community map from Collab.land Token",
+    "status":"installed"
+  },
+  {
+    "name": "opera",
+    "createDateText": "Created about 1 month ago",
+    "freeInfo": "FREE",
+    "appType": "Bot Command",
+    "desc": "Generate a beautiful community map from Collab.land Token",
+    "status":"dao"
+  }
+]
