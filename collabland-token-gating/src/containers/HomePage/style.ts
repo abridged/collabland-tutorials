@@ -8,26 +8,6 @@ const HomePageContainer = styled.div`
   height: 100vh;
   width: 100vw;
 `;
-// const HeaderContainer = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   background-color: #f6c349;
-//   height: 40px;
-//   color: #1b1b1b;
-//   overflow: hidden;
-//   position: relative;
-//   align-items: center;
-//   justify-content: center;
-//   @media screen and ${device.desktop} {
-//     text-align: center;
-//     font-size: 16px;
-//   }
-//   @media screen and ${device.mobile} {
-//     text-align: center;
-//     font-size: 12px;
-//     display: none;
-//   }
-// `;
 const BodyContainer = styled.div`
   display: flex;
   flex-direction: column;

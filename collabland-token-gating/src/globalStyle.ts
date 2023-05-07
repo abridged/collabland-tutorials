@@ -26,22 +26,22 @@ const GlobalStyles = createGlobalStyle`
     font-family: "PPMori";
     src: url(${PPMoriLight}) format("opentype");
     font-weight: 200;
-    display: swap;
-    font-display: optional
+    // display: swap;
+    // font-display: optional;
   }
   @font-face {
     font-family: "PPMori";
     src: url(${PPMoriRegular}) format("opentype");
     font-weight: 400;
-    display: swap;
-    font-display: optional
+    // display: swap;
+    // font-display: optional;
   }
   @font-face {
     font-family: "PPMori";
     src: url(${PPMoriBold}) format("opentype");
     font-weight: 700;
-    display: swap;
-    font-display: optional
+    // display: swap;
+    // font-display: optional;
   }
 `;
 
