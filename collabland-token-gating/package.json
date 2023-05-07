@@ -7,8 +7,7 @@
     "build": "npm run clean-dist && webpack --config ./webpack.config.js --color",
     "eslint": "./node_modules/.bin/eslint ./src/**/*.{ts,tsx}",
     "clean-dist": "npm run remove-dist && mkdir dist",
-    "remove-dist": "rimraf ./dist",
-    "prepare": "husky install"
+    "remove-dist": "rimraf ./dist"
   },
   "dependencies": {
     "@babel/runtime": "7.21.0",
