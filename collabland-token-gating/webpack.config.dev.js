@@ -58,10 +58,9 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.EnvironmentPlugin({
       REACT_APP_ENV: 'development',
-      REACT_APP_API_URL: 'https://api-qa.collab.land',
-      REACT_APP_LOGIN_URL: 'https://login-qa.collab.land',
-      REACT_APP_COLLABLAND_KEY:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybSI6ImNvbGxhYmxhbmQiLCJpZCI6IiRhcHAvRnB0d0x2MWxVcXpCT3VsSFpySnZOIiwiY2xpZW50X2lkIjoiRnB0d0x2MWxVcXpCT3VsSFpySnZOIiwibmFtZSI6IiRhcHAvQ29sbGFiTGFuZCBBZG1pbiBQb3J0YWwiLCJ0eXBlIjoiU0VSVklDRV9BQ0NPVU5UIiwiaWF0IjoxNjIyNTY5Mjc1LCJpc3MiOiJodHRwczovL2FwaS1xYS5jb2xsYWIubGFuZCJ9.WWUXS0iXr6eMgv2batNJc3O_VoSm_Ymc3MK5FcS6LQ4',
+      REACT_APP_API_URL: '',
+      REACT_APP_LOGIN_URL: '',
+      REACT_APP_COLLABLAND_KEY: '',
     }),
     new NodePolyfillPlugin(),
   ],
