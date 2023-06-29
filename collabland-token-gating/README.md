@@ -2,7 +2,7 @@
 
 ## Libraries
 
-- [NodeJs](https://nodejs.org/en/) v19.0.1
+- [NodeJs](https://nodejs.org/en/) v20.2.0
 - [Webpack](https://webpack.js.org/) v5.64.1
 - [React](https://reactjs.org/) v18.2.0
 - [TypeScript](https://www.typescriptlang.org/)
